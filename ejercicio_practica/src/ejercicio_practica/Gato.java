@@ -24,7 +24,7 @@ public class Gato extends Animal {
 		this.bigotes = bigotes;
 	}
     public void hacerSonido() {
-    	JOptionPane.showMessageDialog(null, "Hola amo soy tu gato miaw :D");
+    	JOptionPane.showMessageDialog(null, "Hola amo soy tu gato " + this.getNombre() +" miaw :D");
     	System.out.println("miaw");
     }
 	

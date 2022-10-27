@@ -25,7 +25,7 @@ public String toString() {
 			+ "\n Tipo de animal = " + getTipo() + "\n Color= " + getColor() + "\n Edad = " + getEdad();
 }
 public void hacerSonido() {
-	JOptionPane.showMessageDialog(null, "Hola amo soy tu perro wow :D");
+	JOptionPane.showMessageDialog(null, "Hola amo soy tu perro"+ this.getNombre() + "wow :D");
 	System.out.println("Wow");
 }
 public void moverse() {

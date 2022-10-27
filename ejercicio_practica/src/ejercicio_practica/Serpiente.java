@@ -41,7 +41,7 @@ public String toString() {
 
 }
 public void hacerSonido() {
-	JOptionPane.showMessageDialog(null, "Hola amo soy tu serpiente SSSSSSSSSS :D");
+	JOptionPane.showMessageDialog(null, "Hola amo soy tu serpiente " + this.getNombre() +" SSSSSSSSSS :D");
 	System.out.println("SSSSSSSSSS");
 }
 public void moverse() {
