@@ -3,6 +3,27 @@ package ejercicio_practica;
 import javax.swing.JOptionPane;
 
 public class Serpiente extends Animal {
+private String veneno;
+
+
+
+public String getVeneno() {
+	return veneno;
+}
+
+
+
+
+
+
+public void setVeneno(String veneno) {
+	this.veneno = veneno;
+}
+
+
+
+
+
 
 public Serpiente(String nombre, String tipo, String color, String edad) {
 		super(nombre, tipo, color, edad);
@@ -10,15 +31,9 @@ public Serpiente(String nombre, String tipo, String color, String edad) {
 	}
 
 
-private String veneno;
-s
-public String getVeneno() {
-	return veneno;
-}
 
-public void setVeneno(String veneno) {
-	this.veneno = veneno;
-}
+
+
 
 public String toString() {
 	return " ¿Es venenosa? = " + veneno + "\n Nombre= " + getNombre()
